@@ -1,0 +1,96 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.zoom-controls {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9;
+}
+.zoom {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.zoom:hover {
+  background: rgb(91, 91, 91);
+}
+#dragme {
+  position: absolute;
+  cursor: grab;
+}
+#dragmeheader {
+  cursor: grab;
+}
+.markers {
+  z-index: 1;
+}
+.marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.1s ease-in-out;
+}
+.dot {
+  background-color: #0000ff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.5;
+  cursor: default;
+}
+.dot:hover {
+  opacity: 1.0;
+}
+.markertext {
+  /* Position the marker */
+  position: absolute;
+  z-index: 1;
+  left: 8px;
+  top: 30px;
+  /* transition */
+  transform: translateX(-50%) scale(0);
+  transition: transform 0.2s ease-in-out;
+  transform-origin: top;
+  /* style */
+  width: 180px;
+  background: #0000ff;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: left;
+  font-size: 11px;
+  font-family: Roboto;
+}
+.tip-title {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 900;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+.tip-year .tip-act .tip-Fact .tip-empl {
+  margin: 0;
+}
+.mapImg {
+  width: 4000px;
+  height: 8804px;
+  transition: all 0.1s ease-in-out;
+}
