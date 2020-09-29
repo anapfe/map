@@ -7,7 +7,7 @@ function dragElement(elmnt) {
   if (document.getElementById(elmnt.id + "header")) {
     // if present, the header is where you move the DIV from:
     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
+    } else {
     // otherwise, move the DIV from anywhere inside the DIV:
     elmnt.onmousedown = dragMouseDown;
   }
@@ -47,8 +47,8 @@ function dragElement(elmnt) {
 window.addEventListener('load', function() {
 
   // inicio corrdenadas -------------------------------------
-  var map = document.querySelector('#map');
-  map.addEventListener('click', function(event) {
+  var mapImg = document.querySelector('.mapImg');
+  mapImg.addEventListener('click', function(event) {
     // e = Mouse click event.
     var rect = event.target.getBoundingClientRect();
     var x = event.clientX - rect.left - 6; //x position within the element.
@@ -56,61 +56,59 @@ window.addEventListener('load', function() {
     console.log('left: ' + x, 'top: ' + y);
   });
   //fin coordenadas -------------------------------------
-  
+
   // inicio render markers -------------------------------------
-  for (var i = 0; i < asocs.length; i++) {
-    function createHTML(type, className) {
-      var element = document.createElement(type);
-      element.className = className;
-      return element;
-    }
-    var marker = createHTML('div', 'marker');
-    marker.style.top = asocs[i].top + "px";
-    marker.style.left = asocs[i].left + "px";
-
-    var dot = createHTML('div', "dot");
-
-    var markertext = createHTML('div', 'markertext');
-
-    var tipTitle = createHTML('p', 'tip-title');
-    var name = document.createTextNode(asocs[i].name);
-    tipTitle.appendChild(name);
-
-    var tipDir = createHTML('p', 'tip-dir');
-    var address = document.createTextNode(asocs[i].address);
-    tipDir.appendChild(address);
-
-    var tipYear = createHTML('p', 'tip-year')
-    var year = document.createTextNode(asocs[i].year);
-    tipYear.appendChild(year);
-
-    var tipAct = createHTML("p", 'tip-act');
-    var activity = document.createTextNode(asocs[i].activity);
-    tipAct.appendChild(activity);
-
-    var tipFact = createHTML("p", 'tip-fact');
-    var money = document.createTextNode(asocs[i].money);
-    tipFact.appendChild(money);
-
-    var tipEmploy = createHTML("p", 'tip-cant');
-    var employees = document.createTextNode(asocs[i].employees);
-    tipEmploy.appendChild(employees);
-
-    var markers = document.querySelector('.markers');
-    markers.appendChild(marker);
-    marker.appendChild(dot);
-    marker.appendChild(markertext);
-    markertext.appendChild(tipTitle);
-    markertext.appendChild(tipDir);
-    markertext.appendChild(tipYear);
-    markertext.appendChild(tipAct);
-    markertext.appendChild(tipFact);
-    markertext.appendChild(tipEmploy);
+  function createHTML(type, className) {
+    var element = document.createElement(type);
+    element.className = className;
+    return element;
   }
 
+  asocs.forEach(function(asoc){
+    var markers = document.querySelector('.markers');
+    var dot = createHTML('div', "dot");
+    dot.style.backgroundColor = asoc.color;
+    var markertext = createHTML('div', 'markertext');
+    markertext.style.backgroundColor = asoc.color;
+    var marker = createHTML('div', 'marker');
+    marker.style.top = asoc.top + "px";
+    marker.style.left = asoc.left + "px";
+
+    var i = 0;
+    var length = Object.keys(asoc).length;
+    var last = length - 1;
+    var last2 = length - 2;
+    var last3 = length - 3;
+
+    for (const property in asoc) {
+      if ( i == 0 ) {
+        var div = createHTML('p', 'text');
+        var text = document.createTextNode( asoc[property] );
+        div.appendChild(text);
+        markertext.appendChild(div);
+        i++;
+      } else if ( i != last && i != last2 && i != last3) {
+          var tit = createHTML('span', 'strong');
+          var titText = document.createTextNode(property + ': ');
+          var div = createHTML('p', 'text');
+          var text = document.createTextNode( asoc[property] );
+          console.log(titText);
+          tit.appendChild(titText);
+          div.appendChild(tit);
+          div.appendChild(text);
+          markertext.appendChild(div);
+          i++;
+        } else {
+
+        }
+      }
+      markers.appendChild(marker);
+      marker.appendChild(dot);
+      marker.appendChild(markertext);
+    });
   // fin render markers -------------------------------------
 
-  // inicio marker tooltip -------------------------------------
+  // inicio marker tooltip -----------------------------------
   var markers = document.querySelectorAll('.dot');
   markers.forEach(function(dot) {
     dot.addEventListener('mouseover', function() {
@@ -126,6 +124,10 @@ window.addEventListener('load', function() {
   });
   // fin marker tooltip -------------------------------------
 
+  //inicio zoom ---------------------------------------------
+
+
+  //fin zoom-------------------------------------------------
 
 
 

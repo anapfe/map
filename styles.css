@@ -47,7 +47,6 @@ body {
   transition: all 0.1s ease-in-out;
 }
 .dot {
-  background-color: #0000ff;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -70,7 +69,6 @@ body {
   transform-origin: top;
   /* style */
   width: 180px;
-  background: #0000ff;
   color: white;
   text-align: center;
   border-radius: 4px;
@@ -79,15 +77,19 @@ body {
   font-size: 11px;
   font-family: Roboto;
 }
-.tip-title {
+.text:first-child {
   font-size: 14px;
   margin: 0;
   font-weight: 900;
   border-bottom: 1px solid white;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
-.tip-year .tip-act .tip-Fact .tip-empl {
-  margin: 0;
+.text:last-child {
+  margin-block-end : 0;
+}
+.strong {
+  font-weight: 700;
+  display: block;
 }
 .mapImg {
   width: 4000px;
