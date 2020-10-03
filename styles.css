@@ -32,10 +32,10 @@ body {
 }
 #dragme {
   position: absolute;
-  cursor: grab;
+  /* cursor: grab; */
 }
 #dragmeheader {
-  cursor: grab;
+  /* cursor: grab; */
 }
 .markers {
   z-index: 1;
@@ -75,7 +75,6 @@ body {
   padding: 20px;
   text-align: left;
   font-size: 11px;
-  font-family: Roboto;
 }
 .text:first-child {
   font-size: 14px;
@@ -92,7 +91,7 @@ body {
   display: block;
 }
 .mapImg {
-  width: 4000px;
-  height: 8804px;
+  width: 13000px;
+  height: 29713.5px;
   transition: all 0.1s ease-in-out;
 }
