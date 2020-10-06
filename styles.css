@@ -47,15 +47,29 @@ body {
   transition: all 0.1s ease-in-out;
 }
 .dot {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.2;
   cursor: default;
+  background-image: url("marker.png");
+  object-fit: scale-down;
 }
 .dot:hover {
   opacity: 1.0;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  transform: translateX(-50%) scale(0);
+  transition: transform 0.2s ease-in-out;
+  transform-origin: bottom;
 }
 .markertext {
   /* Position the marker */
@@ -74,7 +88,7 @@ body {
   border-radius: 4px;
   padding: 20px;
   text-align: left;
-  font-size: 11px;
+  font-size: 12px;
 }
 .text:first-child {
   font-size: 14px;
@@ -92,6 +106,7 @@ body {
 }
 .mapImg {
   width: 13000px;
-  height: 29713.5px;
+  /* height: 29713.5px; */
+  height: 28613px;
   transition: all 0.1s ease-in-out;
 }
