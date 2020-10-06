@@ -6,8 +6,8 @@ var asocs = [
     Facturación: "$70.108.416-$350.542.080",
     Empleados: "20-24",
     color: 'red',
-    left: '9784',
-    top: '9800'
+    top: '9800',
+    left: '9784'
   },
   {
     Nombre: "Asociación para el Fomento de la Cultura",
@@ -16,8 +16,8 @@ var asocs = [
     Facturación: "$70.108.416-$350.542.080",
     Empleados: "85-95",
     color: 'green',
-    left: '9903',
-    top: '9872'
+    top: '9872',
+    left: '9903'
   },
   {
     Nombre: "Asociación Promotora de la Educación y el Deporte",
@@ -26,8 +26,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "75-85",
     color: 'blue',
-    left: '9925',
-    top: '9895'
+    top: '9895',
+    left: '9925'
   },
   {
     Nombre: "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
@@ -36,8 +36,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "28-32",
     color: 'orange',
-    left: '9848',
-    top: '9854'
+    top: '9854',
+    left: '9848'
   },
   {
     Nombre: "Asociación Civil de Estudios Superiores",
@@ -46,8 +46,8 @@ var asocs = [
     Facturación: "$350.542.080 - $1.752.710.400",
     Empleados: "200-220",
     color: 'orange',
-    left: '9930',
-    top: '9909'
+    top: '9909',
+    left: '9930'
   },
   {
     Nombre: "Asociación de Emprendimientos Sociales, Educativos y de la Salud",
@@ -56,8 +56,8 @@ var asocs = [
     Facturación: "$0 - $2.804.337",
     // Empleados: "200-220",
     color: 'lightgreen',
-    left: '9921',
-    top: '9940'
+    top: '9940',
+    left: '9921'
   },
   {
     Nombre: "Asociación Cultural del Norte",
@@ -66,8 +66,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "12-16",
     color: 'darkblue',
-    left: '5465',
-    top: '3693'
+    top: '3693',
+    left: '5465'
   },
   {
     Nombre: "Asociación Cultural del Bonaerense",
@@ -76,8 +76,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "30-40",
     color: 'violet',
-    left: '10204',
-    top: '10111'
+    top: '10111',
+    left: '10204'
   },
   {
     Nombre: "Asociación Civil y Cultural de Cuyo",
@@ -86,8 +86,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "18-22",
     color: 'pink',
-    left: '3167',
-    top: '8465'
+    top: '8465',
+    left: '3167'
   },
   {
     Nombre: "Los Ceibos Asociación Civil",
@@ -96,8 +96,8 @@ var asocs = [
     Facturación: "$2.804.337 - $14.021.683",
     Empleados: "1-5",
     color: 'magenta',
-    left: '8442',
-    top: '8567'
+    top: '8567',
+    left: '8442'
   },
   {
     Nombre: "Asociación Cultural de Salta",
@@ -106,8 +106,8 @@ var asocs = [
     // Facturación: "$2.804.337 - $14.021.683",
     // Empleados: "1-5",
     color: 'grey',
-    left: '5288',
-    top: '2298'
+    top: '2298',
+    left: '5288'
   },
   {
     Nombre: "Asociación Santafesina de Cultura",
@@ -116,8 +116,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "30-40",
     color: 'darkblue',
-    left: '8456',
-    top: '8565'
+    top: '8565',
+    left: '8456'
   },
   {
     Nombre: "Asociación Cultural Cordillera",
@@ -126,8 +126,8 @@ var asocs = [
     // Facturación: "$14.021.683 - $70.108.416",
     // Empleados: "30-40",
     color: 'darkblue',
-    left: '3308',
-    top: '7302'
+    top: '7302',
+    left: '3308'
   },
   {
     Nombre: "Asociación de Intercambio Cultural",
@@ -136,8 +136,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "30-40",
     color: 'darkgreen',
+    top: '9854',
     left: '9848',
-    top: '9854'
   },
   {
     Nombre: "Prelatura de la Santa Cruz y el Opus Dei",
@@ -146,7 +146,7 @@ var asocs = [
     // Facturación: "$14.021.683 - $70.108.416",
     // Empleados: "30-40",
     color: 'cadetBlue',
-    left: '9903',
-    top: '9872'
+    top: '9872',
+    left: '9903'
   },
 ];
