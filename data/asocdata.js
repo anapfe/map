@@ -1,15 +1,15 @@
 var asocs = [
-  {
-    Nombre: "test",
-    Dirección: 'test',
-    Constitución: '45',
-    Actividad: "Etest" ,
-    Facturación: "sdfds",
-    Empleados: "sdfs",
-    color: '#191f1f',
-    top: '4302',
-    left: '2912'
-  },
+  // {
+  //   Nombre: "test",
+  //   Dirección: 'test',
+  //   Constitución: '45',
+  //   Actividad: "Etest" ,
+  //   Facturación: "sdfds",
+  //   Empleados: "sdfs",
+  //   color: '#191f1f',
+  //   top: '4302',
+  //   left: '2912'
+  // },
   {
     Nombre: "Asociación para la Promoción Deportiva Educativa y Social",
     Dirección: 'Intendente Ávalos 2751, Buenos Aires',

@@ -8,10 +8,21 @@ body {
   height: 100%;
   /* overflow: hidden; */
 }
+#container {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 1300px;
+  height: 540px;
+  overflow: hidden;
+}
 .zoom-controls {
-  position: fixed;
-  top: 50px;
-  left: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  /* position: fixed; */
+  /* top: 50px;
+  left: 50px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -35,6 +46,7 @@ body {
   width: auto;
   height: auto;
   position: absolute;
+  transition: all 0.1s ease-in-out;
   /* cursor: grab; */
 }
 #dragmeheader {
@@ -106,8 +118,9 @@ body {
   font-weight: 700;
   display: block;
 }
-.mapImg {
+#mapImg {
   width: 13000px;
   height: auto;
-  /* background-color: rgb(134, 240, 148); /* // eliminar!!  */ 
+  /* background-color: rgb(134, 240, 148);  */
+  transition: all 0.1s ease-in-out;
 }
