@@ -22,23 +22,22 @@ window.addEventListener('load', function() {
   dragme.style.top = newTop + 'px';
   // FIN center map
 
-
-  percent = 1071 / 13000;
-  var error = 2.5;
-  var markerError = 17.5;
-  for (var i = 0; i < 8; i++) {
-    // error = error * 0.7;
-    // markerError += error;
-  }
+  var markerError = 2.5;
+  // var error = 2.5;
+  // for (var i = 0; i < 8; i++) {
+  // error = error * 0.7;
+  // markerError += error;
+  // }
 
   var mapImg = $("#mapImg");
   var dragme = $('#dragme');
   var container = $('#container');
   var currWidth = mapImg.width();
-
+  //
   var imgCss = {};
   var dragCss = {};
 
+  percent = 1071 / 13000;
   imgCss.width = currWidth * percent;
   var x = Math.abs(dragme.position().left) + container.width() / 2;
   var y = Math.abs(dragme.position().top) + container.height() / 2;
@@ -57,8 +56,11 @@ window.addEventListener('load', function() {
 
     var actualTop = parseInt(marker.style.top, 10);
     var actualLeft = parseInt(marker.style.left, 10);
-    marker.style.top = (actualTop - markerError) * percent + 'px';
-    marker.style.left = (actualLeft - markerError) * percent + 'px';
+    // marker.style.top = (actualTop - markerError) * percent + 'px';
+    // marker.style.left = (actualLeft - markerError) * percent + 'px';
+
+    marker.style.top = (actualTop * 0.0818) + 'px';
+    marker.style.left = (actualLeft  * 0.0817)+ 'px';
   });
 
   var zoom = document.querySelectorAll('.zoom');
