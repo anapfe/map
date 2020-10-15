@@ -123,8 +123,8 @@ var insti = [
     // / Beccar | BUENOS AIRES | Av. Uruguay 2820
     Nombre: 'Colegio Bilingüe Crisol (Mujeres)',
     Asociación : "Asociación para la Promoción Deportiva Educativa y Social",
-    top: '9729',
-    left: '10147',
+    top: '9730',
+    left: '10148',
     color: '#aa1f70'
   },
   {
@@ -544,8 +544,8 @@ var insti = [
     //Formosa 1431  Mar Del Plata
     Nombre: 'Centro - Residencia',
     Asociación : "Asociación Cultural Bonaerense",
-    top: '12276',
-    left: '10445',
+    top: '12288',
+    left: '10459',
     color: '#aa1f70'
   },
   {
@@ -568,6 +568,7 @@ var insti = [
     //Gorriti 67 Bahía Blanca
     Nombre: 'Centro - Residencia',
     Asociación : "Asociación Cultural Bonaerense",
+    Ciudad: 'Bahía Blanca',
     top: '12878',
     left: '7413',
     color: '#aa1f70'
@@ -584,7 +585,7 @@ var insti = [
     //Rawson 463 - Mar del Plata
     Nombre: 'Centro Cultural Piedra Blanca',
     Asociación : "Asociación Cultural Bonaerense",
-    top: '12276',
+    top: '12288',
     left: '10450',
     color: '#aa1f70'
   },
@@ -974,5 +975,21 @@ var insti = [
     top: '9408',
     left: '9500',
     color: '#aa1f70'
-  }
+  },
+  {
+    //Santa María del Buen Aire 953, CABA
+    Nombre: 'Colegio del Buen Consejo / Colegio Santa Cruz',
+    Asociación : "Asociación de Emprendimientos Sociales, Educativos y de la Salud",
+    top: '9572',
+    left: '9922',
+    color: '#aa1f70'
+  },
+  {
+    //Evita 66, Villa Madero, provincia de Buenos Aires
+    Nombre: 'Instituto Madero',
+    Asociación : "Asociación Para el Fomento de la Cultura",
+    top: '9679',
+    left: '9835',
+    color: '#aa1f70'
+  },
 ];

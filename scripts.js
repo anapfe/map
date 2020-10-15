@@ -12,11 +12,14 @@ window.addEventListener('load', function() {
   var mapWidth = dragme.getBoundingClientRect().width;
   var mapHeight = dragme.getBoundingClientRect().height;
 
-  var windowWidth = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) - 17;
-  var windowHeight = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+  var containerHeight = document.querySelector('#container').clientHeight;
+  var containerWidth = document.querySelector('#container').clientWidth;
 
-  var newLeft = (windowWidth - mapWidth) / 2;
-  var newTop = (windowHeight - mapHeight) / 2;
+  // var windowWidth = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) - 17;
+  // var windowHeight = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+
+  var newLeft = (containerWidth - mapWidth) / 2;
+  var newTop = (containerHeight - mapHeight) / 2;
 
   dragme.style.left = newLeft + 'px';
   dragme.style.top = newTop + 'px';
@@ -74,7 +77,7 @@ window.addEventListener('load', function() {
 
       if (e.id == 'zoomin') {
 
-        if (currWidth >= 20000) return false;
+        if (currWidth >= 18000) return false;
         else {
 
           var imgCss = {};

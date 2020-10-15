@@ -117,7 +117,7 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "30 - 40",
     color: '#191f1f',
-    top: '9750',
+    top: '9760',
     left: '10191'
   },
   {
