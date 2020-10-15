@@ -533,14 +533,6 @@ var insti = [
     color: '#aa1f70'
   },
   {
-    // Champagnat y Matienzo en Luján
-    Nombre: 'Casa de retiros y convivencias La Huella - Marangatú',
-    Asociación : "Asociación Cultural Bonaerense",
-    top: '9557',
-    left: '9284',
-    color: '#aa1f70'
-  },
-  {
     //Formosa 1431  Mar Del Plata
     Nombre: 'Centro - Residencia',
     Asociación : "Asociación Cultural Bonaerense",
@@ -707,14 +699,6 @@ var insti = [
     Asociación : "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
     top: '9778',
     left: '9735',
-    color: '#aa1f70'
-  },
-  {
-    // champagnat y Beato Álvaro del portillo (ex-Matienzo) Luján, Provincia de Buenos Aires, Argentina
-    Nombre: 'Talleres Marangatú',
-    Asociación : "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
-    top: '9554',
-    left: '9284',
     color: '#aa1f70'
   },
   {
@@ -916,10 +900,27 @@ var insti = [
     color: '#aa1f70'
   },
   {
+    // Champagnat y Matienzo en Luján
+    Nombre: 'Casa de retiros y convivencias La Huella - Marangatú',
+    Asociación : "Asociación Cultural Bonaerense",
+    top: '9560',
+    left: '9275',
+    color: '#aa1f70'
+  },
+  {
+    // champagnat y Beato Álvaro del portillo (ex-Matienzo) Luján, Provincia de Buenos Aires, Argentina
+    Nombre: 'Talleres Marangatú',
+    Asociación : "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
+    top: '9560',
+    left: '9280',
+    color: '#aa1f70'
+  },
+  {
+    // - champagnat y Beato Álvaro del portillo (ex-Matienzo) Luján, Provincia de Buenos Aires, Argentina
     Nombre: 'Centro de Formación Rural Marangatú',
     Asociación : "Fundación Pedro Antonio Marzano",
-    top: '9552',
-    left: '9282',
+    top: '9550',
+    left: '9285',
     color: '#aa1f70'
   },
   {
