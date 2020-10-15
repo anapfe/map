@@ -271,11 +271,11 @@ var insti = [
   },
   {
     // MONTEVIDEO 1550 - CABA
-    Nombre: 'Centro de Extensión Cultural (CEC) - Oficina de Comunicación del Opus Dei',
-    Asociación : "Asociación para el Fomento de la Cultura",
-    top: '1485',
-    left: '5488',
-    color: '#e67805'
+   // Nombre: 'Centro de Extensión Cultural (CEC) - Oficina de //Comunicación del Opus Dei',
+    //Asociación : "Asociación para el Fomento de la Cultura",
+    //top: '1485',
+   // left: '5488',
+   // color: '#e67805'
   },
   {
     Nombre: 'Centro Cultural Los Arrayanes',
@@ -286,11 +286,11 @@ var insti = [
   },
   {
     // SANTA FE 825 - CABA
-    Nombre: 'Residencia',
-    Asociación : "Asociación para el Fomento de la Cultura",
-    top: '1485',
-    left: '5488',
-    color: '#e67805'
+   // Nombre: 'Residencia',
+  //  Asociación : "Asociación para el Fomento de la Cultura",
+   // top: '1485',
+   // left: '5488',
+   // color: '#e67805'
   },
   {
     Nombre: 'Club El Águila',
