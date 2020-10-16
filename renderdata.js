@@ -28,20 +28,19 @@ insti.forEach(function(insti){
   markertext.style.backgroundColor = insti.color;
   marker.appendChild(markertext);
 
-  var i = 0;
   var length = Object.keys(insti).length;
-  var last = length - 1;
-  var last2 = length - 2;
-  var last3 = length - 3;
-
   for (var property in insti) {
-    if ( i == 0 ) {
-      var div1 = createHTML('p', 'text');
-      var text1 = document.createTextNode( insti[property] );
-      div1.appendChild(text1);
-      markertext.appendChild(div1);
-      i++;
-    } else if ( i != last && i != last2 && i != last3) {
+    if ( property == 'Ciudad') {
+      var cityDiv = createHTML('p', 'city');
+      var cityName = document.createTextNode( insti[property] );
+      cityDiv.appendChild(cityName);
+      markertext.appendChild(cityDiv);
+    } else if ( property == 'Nombre' ) {
+      var nameDiv = createHTML('p', 'insti');
+      var name = document.createTextNode( insti[property] );
+      nameDiv.appendChild(name);
+      markertext.appendChild(nameDiv);
+    } else if ( property != 'color' && property != 'left' && property != 'top') {
       var tit = createHTML('span', 'strong');
       var titText = document.createTextNode(property + ': ');
       var div = createHTML('p', 'text');
@@ -50,7 +49,6 @@ insti.forEach(function(insti){
       div.appendChild(tit);
       div.appendChild(text);
       markertext.appendChild(div);
-      i++;
     } else {
     }
   }
@@ -84,8 +82,8 @@ asocs.forEach(function(asoc){
   var last3 = length - 3;
 
   for (var property in asoc) {
-    if ( i == 0 ) {
-      var div1 = createHTML('p', 'text');
+    if ( property == 'Nombre' ) {
+      var div1 = createHTML('p', 'asoc');
       var text1 = document.createTextNode( asoc[property] );
       div1.appendChild(text1);
       markertext.appendChild(div1);

@@ -1,12 +1,23 @@
 window.addEventListener('load', function() {
 
+  // inicio corrdenadas -------------------------------------
+  var mapImg = document.querySelector('#mapImg');
+  mapImg.addEventListener('click', function(event) {
+    // e = Mouse click event.
+    var rect = event.target.getBoundingClientRect();
+    var x = event.clientX - rect.left - 5; //x position within the element.
+    var y = event.clientY - rect.top - 5;  //y position within the element.
+    console.log('top: ' + y, 'left: ' + x);
+  });
+  //fin coordenadas --------------------------------------------
+
   window.scrollTo(0, 0);
 
   $( function() {
     $( "#dragme" ).draggable();
   } );
 
-  // center map
+  // center map --------------------------------------------
   var dragme = document.querySelector('#dragme');
 
   var mapWidth = dragme.getBoundingClientRect().width;
@@ -23,9 +34,10 @@ window.addEventListener('load', function() {
 
   dragme.style.left = newLeft + 'px';
   dragme.style.top = newTop + 'px';
-  // FIN center map
+  // FIN center map --------------------------------------------
 
   var markerError = 2.5;
+
   // var error = 2.5;
   // for (var i = 0; i < 8; i++) {
   // error = error * 0.7;
