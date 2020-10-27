@@ -89,7 +89,7 @@ window.addEventListener('load', function() {
 
       if (e.id == 'zoomin') {
 
-        if (currWidth >= 18000) return false;
+        if (currWidth >= 15000) return false;
         else {
 
           var imgCss = {};

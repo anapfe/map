@@ -85,8 +85,8 @@ var insti = [
     Ciudad: 'Guaymallén',
     Nombre: 'Colegio Los Olivos (Varones)',
     Asociación : "Asociación para la Promoción Deportiva Educativa y Social",
-    top: '8234',
-    left: '3174',
+    top: '8134',
+    left: '3169',
     color: '#aa1f70'
   },
   {
@@ -94,7 +94,7 @@ var insti = [
     Ciudad: 'Guaymallén',
     Nombre: 'Colegio Portezuelo (Mujeres)',
     Asociación : "Asociación para la Promoción Deportiva Educativa y Social",
-    top: '8240',
+    top: '8140',
     left: '3177',
     color: '#aa1f70'
   },
@@ -103,13 +103,13 @@ var insti = [
     Ciudad: 'Guaymallén',
     Nombre: 'Jardín de Infantes Platero (Mixto)',
     Asociación : "Asociación para la Promoción Deportiva Educativa y Social",
-    top: '8235',
+    top: '8145',
     left: '3180',
     color: '#aa1f70'
   },
   {
-     // | MUNRO | BUENOS AIRES | Int. Ávalos 2751
-     Ciudad: 'Vicente López',
+    // | MUNRO | BUENOS AIRES | Int. Ávalos 2751
+    Ciudad: 'Vicente López',
     Nombre: 'Colegio Bilingüe Los Molinos (Varones)',
     Asociación : "Asociación para la Promoción Deportiva Educativa y Social",
     top: '9430',
@@ -117,8 +117,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-        // / Beccar | BUENOS AIRES | Av. Uruguay 2820
-        Ciudad: 'San Isidro',
+    // / Beccar | BUENOS AIRES | Av. Uruguay 2820
+    Ciudad: 'San Isidro',
     Nombre: 'Colegio El Buen Ayre (Mujeres)',
     Asociación : "Asociación para la Promoción Deportiva Educativa y Social",
     top: '9379',
@@ -206,8 +206,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-     // Conde 1630- CABA
-     Ciudad: 'CABA',
+    // Conde 1630- CABA
+    Ciudad: 'CABA',
     Nombre: 'Centro Sur / Club Cultural Ventos del Sur',
     Asociación : "Asociación para el Fomento de la Cultura",
     top: '9545',
@@ -307,11 +307,11 @@ var insti = [
   {
     // MONTEVIDEO 1550 - CABA
     // Ciudad: 'CABA',
-   // Nombre: 'Centro de Extensión Cultural (CEC) - Oficina de //Comunicación del Opus Dei',
+    // Nombre: 'Centro de Extensión Cultural (CEC) - Oficina de //Comunicación del Opus Dei',
     //Asociación : "Asociación para el Fomento de la Cultura",
     //top: '1485',
-   // left: '5488',
-   // color: '#e67805'
+    // left: '5488',
+    // color: '#e67805'
   },
   {
     // AGUERO 2038 - CABA
@@ -325,11 +325,11 @@ var insti = [
   {
     // SANTA FE 825 - CABA
     // Ciudad: 'CABA',
-   // Nombre: 'Residencia',
-  //  Asociación : "Asociación para el Fomento de la Cultura",
-   // top: '1485',
-   // left: '5488',
-   // color: '#e67805'
+    // Nombre: 'Residencia',
+    //  Asociación : "Asociación para el Fomento de la Cultura",
+    // top: '1485',
+    // left: '5488',
+    // color: '#e67805'
   },
   {
     // Evita 51, Villa Madero, Provincia de Buenos Aires
@@ -439,8 +439,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-  // 25 de Mayo S/N - Santo Tomé, Corrientes
-  Ciudad: 'Santo Tomé',
+    // 25 de Mayo S/N - Santo Tomé, Corrientes
+    Ciudad: 'Santo Tomé',
     Nombre: 'Centro - Residencia',
     Asociación : "Asociación para el Fomento de la Cultura",
     top: '4842',
@@ -602,7 +602,7 @@ var insti = [
   },
   {
     //sobre la Ruta Nacional N° 5 en el kilómetro 477,5.
-    Ciudad: 'Mari Lauquen',
+    Ciudad: 'Trenque Lauquen',
     Nombre: 'Casa de retiros y convivencias Marilauquen',
     Asociación : "Asociación Cultural Bonaerense",
     top: '10754',
@@ -668,17 +668,18 @@ var insti = [
     Ciudad: 'Mendoza',
     Nombre: 'Residencia Universitaria Atuel',
     Asociación : "Asociación Civil y Cultural de Cuyo",
-    top: '8200',
-    left: '3098',
+    top: '8110',
+    left: '3090',
     color: '#aa1f70'
   },
   {
     //Emilio Civit 405, Mendoza.
+    // Misma dirección "Asociación Civil y Cultural de Cuyo",
     Ciudad: 'Mendoza',
     Nombre: 'Residencia Universitaria Los Portones',
     Asociación : "Asociación Civil y Cultural de Cuyo",
-    top: '8195',
-    left: '3088',
+    top: '8090',
+    left: '3070',
     color: '#aa1f70'
   },
   {
@@ -686,8 +687,8 @@ var insti = [
     Ciudad: 'Mendoza',
     Nombre: 'Centro Cultural Carrizal',
     Asociación : "Asociación Civil y Cultural de Cuyo",
-    top: '8190',
-    left: '3108',
+    top: '8090',
+    left: '3100',
     color: '#aa1f70'
   },
   {
@@ -695,7 +696,7 @@ var insti = [
     Ciudad: 'Mendoza',
     Nombre: 'Centro Cultural Rondó',
     Asociación : "Asociación Civil y Cultural de Cuyo",
-    top: '8222',
+    top: '8130',
     left: '3121',
     color: '#aa1f70'
   },
@@ -790,8 +791,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-     // González Catán
-     Ciudad: 'González Catán',
+    // González Catán
+    Ciudad: 'González Catán',
     Nombre: 'Sendas (alianza con CONIN)',
     Asociación : "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
     top: '9778',
@@ -808,8 +809,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-     // Senador Morón 2150 - Bella Vista, partido de San Miguel, Provincia de Buenos Aires;
-     Ciudad: 'Bella Vista',
+    // Senador Morón 2150 - Bella Vista, partido de San Miguel, Provincia de Buenos Aires;
+    Ciudad: 'Bella Vista',
     Nombre: 'Centro La Loma',
     Asociación : "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
     top: '9514',
@@ -826,8 +827,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-     // Sánchez de Bustamante 1220, Palermo, Capital Federal
-     Ciudad: 'CABA',
+    // Sánchez de Bustamante 1220, Palermo, Capital Federal
+    Ciudad: 'CABA',
     Nombre: 'Centro Torrealta',
     Asociación : "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
     top: '9519',
@@ -835,8 +836,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-     // Rosario 250 Caballito-
-     Ciudad: 'CABA',
+    // Rosario 250 Caballito-
+    Ciudad: 'CABA',
     Nombre: 'Centro Cultural Sureda',
     Asociación : "Instituto de Capacitación Integral en Estudios Domésticos / Iniciativas de Capacitación Integral para Emprendimientos de Desarrollo",
     top: '9550',
@@ -854,11 +855,12 @@ var insti = [
   },
   {
     // 25 de mayo 542 (o) 5400 San Juan, Provincia de San Juan, Argentina
+    // Misma dirección que "Asociación Cultural Cordillera",
     Ciudad: 'San Juan',
     Nombre: 'Centro Cultural Cordillera / Club Chañar',
     Asociación : "Asociación Cultural Cordillera",
-    top: '7148',
-    left: '3305',
+    top: '7140',
+    left: '3300',
     color: '#aa1f70'
   },
   {
@@ -880,8 +882,8 @@ var insti = [
     color: '#aa1f70'
   },
   {
-        // Paraguay 1114 1
-        Ciudad: 'CABA',
+    // Paraguay 1114 1
+    Ciudad: 'CABA',
     Nombre: 'Centro - Residencia',
     Asociación : "Asociación de Intercambio Cultural",
     top: '9528',
@@ -1018,8 +1020,8 @@ var insti = [
     Ciudad: 'Maipú',
     Nombre: 'Centro de Formación Rural Las Retamas (Mujeres)',
     Asociación : "Fundación Pedro Antonio Marzano",
-    top: '8352',
-    left: '3197',
+    top: '8245',
+    left: '3180',
     color: '#aa1f70'
   },
   {
@@ -1098,8 +1100,8 @@ var insti = [
     Ciudad: 'Cruz de Piedra',
     Nombre: 'Casa de Retiros Cruz de Piedra',
     Asociación : "Sin Identificar",
-    top: '8358',
-    left: '3194',
+    top: '8257',
+    left: '3182',
     color: '#aa1f70'
   },
   {

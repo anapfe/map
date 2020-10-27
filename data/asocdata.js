@@ -128,8 +128,8 @@ var asocs = [
     Facturación: "$14.021.683 - $70.108.416",
     Empleados: "18 - 22",
     color: '#191f1f',
-    top: '8195',
-    left: '3108'
+    top: '8091',
+    left: '3085'
   },
   {
     Nombre: "Los Ceibos Asociación Civil",
